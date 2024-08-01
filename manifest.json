@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": ".",
+    "version": "1.0",
+    "description": "Takes a screenshot of the visible part of the webpage and copies it to the clipboard.",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting",
+      "clipboardWrite"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
